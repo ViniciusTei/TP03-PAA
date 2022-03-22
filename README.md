@@ -81,6 +81,13 @@ Para rodar o programa rode
 
 Certifique-se de que o arquivo passado como parametro esteja na raiz do projeto, ou seja, ao lado dos arquivo Makefile e README.md.
 
+### Argumentos
+
+| Args         | Descricao    | Exemplo
+| -------------|:-------------:|:-------------:|
+| --file       | Nome do arquivo padrao a ser lido | ./exec --file text.txt
+
+
 ## Colaboradores
 
 <table>
