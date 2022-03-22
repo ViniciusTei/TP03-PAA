@@ -13,7 +13,7 @@ int main(int argc, char **argv) {
   // quando o nome do arquivo eh passado como argumento iniciamos nossa variavel
   if (argc > 0) {
     for (int i = 0; i < argc; i++) {
-      if (strcmp(argv[i], "--file") == 0 || strcmp(argv[i], "--arquivo") == 0) {
+      if (strcmp(argv[i], "--file") == 0) {
         strcpy(nome_arquivo, argv[i+1]);
       }
     }
