@@ -1,6 +1,6 @@
 CC = gcc
 
-SRCS = $(shell find . -name '.ccls-cache' -type d -prune -o -type f -name '*.c' -print)
+SRCS = $(shell find . -name d -prune -o -type f -name '*.c' -print)
 OBJS = $(patsubst %.c, %.o, $(SRCS))
 
 main: $(OBJS)
@@ -8,4 +8,3 @@ main: $(OBJS)
 
 clean:
 	rm -f $(OBJS) main
-	
